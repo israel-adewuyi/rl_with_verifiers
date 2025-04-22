@@ -1,0 +1,12 @@
+1. Clone the SandboxFusion repo
+2. Run the following commands
+    conda create -n sandbox -y python=3.12
+    conda activate sandbox
+    poetry install
+3. Run mkdir -p docs/build
+4. To launch sandbox, run make run-online
+
+NOTES: 
+After step 3, there might be need to run 
+    cd runtime/python
+    bash install-python-runtime.sh
